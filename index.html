@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kuldeep Ram Tripathi — CSE student, aspiring software developer, and project builder.">
+  <title>Kuldeep Ram Tripathi | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">KT<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> CSE STUDENT · OPEN TO LEARNING</p>
+        <h1>Hi, I'm <span>Kuldeep Ram Tripathi</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="hero-description">I’m a Computer Science student building my skills in C++, Data Structures & Algorithms, and web development by creating practical projects.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="social-links">
+          <!-- Replace # with your actual profile URLs -->
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Developer illustration">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>developer.cpp</span></div>
+          <pre><code><span class="code-purple">class</span> Developer {
+<span class="code-purple">public:</span>
+  <span class="code-blue">string</span> goal =
+    <span class="code-green">"Keep learning"</span>;
+
+  <span class="code-blue">void</span> build() {
+    practice();
+    createProjects();
+  }
+};</code></pre>
+        </div>
+        <div class="floating-tag tag-top">{"curiosity": true}</div>
+        <div class="floating-tag tag-bottom">while (learning) { grow(); }</div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Learning by <span>building.</span></h2>
+          <p>I believe the best way to improve is to turn concepts into working projects.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="icon-box">⌘</div>
+            <h3>My journey</h3>
+            <p>I’m a second-year CSE student exploring programming, problem-solving, and software development one step at a time.</p>
+          </div>
+          <div class="about-card">
+            <div class="icon-box">✦</div>
+            <h3>What I enjoy</h3>
+            <p>Practising DSA, building useful web applications, learning new tools, and improving through feedback.</p>
+          </div>
+          <div class="about-card">
+            <div class="icon-box">↗</div>
+            <h3>My goal</h3>
+            <p>Strengthen my fundamentals, build a solid project portfolio, and prepare for software development internships.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M WORKING WITH</p>
+        <h2>Skills & <span>tools</span></h2>
+        <p>This is a growing toolkit. I’ll keep adding skills as I gain hands-on experience.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-symbol cpp">C++</span><div><h3>C++</h3><p>Programming fundamentals</p></div></div>
+        <div class="skill-item"><span class="skill-symbol dsa">DSA</span><div><h3>Data Structures & Algorithms</h3><p>Problem-solving practice</p></div></div>
+        <div class="skill-item"><span class="skill-symbol html">5</span><div><h3>HTML</h3><p>Web page structure</p></div></div>
+        <div class="skill-item"><span class="skill-symbol css">3</span><div><h3>CSS</h3><p>Styling and responsive layouts</p></div></div>
+        <div class="skill-item"><span class="skill-symbol js">JS</span><div><h3>JavaScript</h3><p>Interactive web features</p></div></div>
+        <div class="skill-item"><span class="skill-symbol git">⌘</span><div><h3>Git & GitHub</h3><p>Version control basics</p></div></div>
+      </div>
+      <p class="small-note">Tip: Keep only the technologies you can comfortably discuss in an interview.</p>
+    </section>
+
+    <section class="section section-tint" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects I've <span>built</span></h2>
+          <p>Small, practical projects that help me apply what I learn.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual hostel-visual"><span class="visual-icon">⌂</span><span class="visual-label">HOSTEL / DASHBOARD</span></div>
+            <div class="project-content">
+              <p class="project-type">FRONTEND WEB APP</p>
+              <h3>Smart Hostel Management System</h3>
+              <p>A simple hostel website concept with student and admin dashboards for viewing hostel-related information.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div>
+              <div class="project-links"><a href="#" class="project-link">GitHub repo ↗</a><a href="#" class="project-link">Live demo ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual quiz-visual"><span class="visual-icon">?</span><span class="visual-label">QUIZ / LEARN</span></div>
+            <div class="project-content">
+              <p class="project-type">WEB DEVELOPMENT</p>
+              <h3>Quiz Maker Website</h3>
+              <p>A learning project idea for creating quizzes, answering questions, and showing a score at the end.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links"><a href="#" class="project-link">GitHub repo ↗</a><a href="#" class="project-link">Live demo ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card project-placeholder">
+            <div class="project-visual campus-visual"><span class="visual-icon">✦</span><span class="visual-label">IDEA → PROTOTYPE</span></div>
+            <div class="project-content">
+              <p class="project-type">FUTURE PROJECT</p>
+              <h3>Campus Connect AI</h3>
+              <p>A planned campus platform concept to help students discover useful campus information and opportunities.</p>
+              <div class="tag-list"><span>Planning</span><span>Prototype next</span></div>
+              <div class="project-links"><span class="muted-link">In progress</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="small-note">Before publishing, update project descriptions to match your actual implementation and replace each # with your real repository/demo link.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">PROGRESS, NOT PERFECTION</p>
+        <h2>Coding & <span>milestones</span></h2>
+        <p>My focus is on consistent practice and learning from every attempt.</p>
+      </div>
+      <div class="milestone-list">
+        <div class="milestone"><div class="milestone-icon">⌁</div><div><h3>DSA practice</h3><p>Practising algorithmic problems, including recursion and backtracking challenges.</p></div><span class="milestone-status">ONGOING</span></div>
+        <div class="milestone"><div class="milestone-icon">⌘</div><div><h3>Project development</h3><p>Building frontend projects and learning how to publish code with GitHub.</p></div><span class="milestone-status">ONGOING</span></div>
+        <div class="milestone"><div class="milestone-icon">↗</div><div><h3>Internship preparation</h3><p>Improving programming fundamentals, project quality, and professional presence.</p></div><span class="milestone-status">GOAL</span></div>
+      </div>
+      <div class="profile-banner">
+        <div><h3>Want to see my coding progress?</h3><p>Visit my profiles for the latest projects and practice.</p></div>
+        <div class="hero-actions"><a class="button primary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button secondary" href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p>
+        <h2>Let's build something <span>useful.</span></h2>
+        <p>I'm always happy to connect with fellow learners, developers, and people working on interesting ideas.</p>
+        <a class="button primary" id="emailButton" href="mailto:your.email@example.com">Email me ↗</a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+        <p class="small-note">Remember to replace the sample email and profile URLs before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home">KT<span>.</span></a><p>Designed & built by Kuldeep Ram Tripathi · <span id="year">2026</span></p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
